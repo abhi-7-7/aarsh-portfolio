@@ -174,7 +174,6 @@ export const projects: Project[] = [
     ],
     featured: false,
   },
-  },
 ];
 
 export const featuredProjects = projects.filter((p) => p.featured);
