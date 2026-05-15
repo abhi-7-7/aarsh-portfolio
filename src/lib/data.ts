@@ -8,9 +8,9 @@ export const personal = {
   email: "aarsh4344@gmail.com",
   linkedin: "https://linkedin.com/in/aarsh-abhi7/",
   github: "https://github.com/abhi-7-7",
-  resume: "/Aarsh-Bhatnagar-Resume.pdf",
+  resume: "/resume.pdf",
   resumeSizeLabel: "74 KB",
-  profileImage: undefined as string | undefined,
+  profileImage: "/images/ME.png",
 };
 
 // ─── Projects ─────────────────────────────────────────────────────────────────
@@ -32,6 +32,7 @@ export const projects: Project[] = [
     description:
       "AI-powered mock interview platform featuring a server-side PDF parser with 3,000-character resume capping, OpenRouter LLM integration, and a custom Markdown-to-JSON wrapper for robust parsing.",
     tech: ["React", "Node.js", "MongoDB", "Redux Toolkit", "Tailwind CSS", "OpenRouter AI", "Web Speech API"],
+    image: "/images/interview-iq.png",
     github: "https://github.com/abhi-7-7/Interview_AI",
     live: "https://interview-ai-tawny.vercel.app/",
     metrics: [
@@ -48,6 +49,7 @@ export const projects: Project[] = [
     description:
       "Intelligent Task Management system demonstrating production-grade design patterns: Strategy (DeadlineBased), Observer (NotificationSubject), and Builder patterns with a class-based React 19 architecture.",
     tech: ["TypeScript", "React 19", "Node.js", "Prisma", "PostgreSQL (Neon)", "Zod", "JWT"],
+    image: "/images/smartflow.png",
     github: "https://github.com/abhi-7-7/System_Design_Capstone",
     live: "https://system-design-capstone.vercel.app/",
     metrics: [
@@ -64,6 +66,7 @@ export const projects: Project[] = [
     description:
       "Agentic AI pipeline for churn prediction using a 7,043-record IBM dataset, stratified 80/20 split, and an XGBoost model with scale_pos_weight=2.77 for class imbalance handling.",
     tech: ["Python", "XGBoost", "LangGraph", "LangChain", "FAISS", "Groq LLM", "Streamlit"],
+    image: "/images/telecom.png",
     github: "https://github.com/abhi-7-7/GenAi",
     live: "https://genai2401010007.streamlit.app/",
     metrics: [
@@ -80,6 +83,7 @@ export const projects: Project[] = [
     description:
       "Production-ready RAG application utilizing MiniLM embeddings and LLaMA 3 via Groq, featuring a custom MD5-based session caching trick and MMR top-5 retrieval diversity.",
     tech: ["Python", "LangChain", "FAISS", "LLaMA 3 (Groq)", "Streamlit", "HuggingFace"],
+    image: "/images/codaxxistant.png",
     github: "https://github.com/abhi-7-7/COdebase_rag_Assistant",
     live: "https://codaxxistant.streamlit.app/",
     metrics: [
@@ -96,6 +100,7 @@ export const projects: Project[] = [
     description:
       "Next.js 14 SaaS tool for startups to audit and optimize AI spend, featuring a multi-tool audit engine and GitHub Actions CI for production-grade reliability.",
     tech: ["Next.js 14", "TypeScript", "Supabase", "Groq API", "Tailwind CSS", "GitHub Actions"],
+    image: "/images/credex.png",
     github: "https://github.com/abhi-7-7/Credex",
     live: "https://credex-sooty.vercel.app/",
     metrics: [
@@ -111,6 +116,7 @@ export const projects: Project[] = [
     description:
       "Deep learning time-series model using a 3-layer stacked LSTM with a 60-day lookback window, achieving an R² of 0.9412 on daily Yahoo Finance OHLCV data.",
     tech: ["Python", "TensorFlow", "Keras", "scikit-learn", "yfinance", "Streamlit"],
+    image: "/images/lstm.png",
     github: "https://github.com/abhi-7-7/Stock_PRedictor",
     live: "https://stocxpred.streamlit.app/",
     metrics: [
@@ -126,8 +132,9 @@ export const projects: Project[] = [
     description:
       "Modular Python trading bot for executing MARKET and LIMIT orders on Binance Futures Testnet, featuring robust error handling and REST API integration.",
     tech: ["Python", "Binance API", "REST API", "Streamlit", "Logging"],
+    image: "/images/binance.png",
     github: "https://github.com/abhi-7-7/Python_binance",
-    live: "https://binancepython.streamlit.app/",
+    live: "https://binancepthon.streamlit.app/",
     metrics: [
       "Futures Testnet Support",
       "MARKET & LIMIT Orders",
@@ -141,6 +148,8 @@ export const projects: Project[] = [
       "Exploratory analysis of 16+ years of federal traffic incident data, featuring multi-year CSV merging, pandas-based validation, and Tableau visualization.",
     tech: ["Python", "pandas", "Jupyter Notebook", "Tableau", "Data Analysis"],
     github: "https://github.com/abhi-7-7/Brazil_traffic",
+    live: "https://public.tableau.com/app/profile/aarsh.bhatnagar/viz/BrazilTrafficIncidents_17774612487320/ExploringBrazilianTrafficIncidents?publish=yes",
+    image: "/images/brazil.png",
     metrics: [
       "16+ Years Data Merge",
       "Pandas-based validation",
@@ -153,6 +162,7 @@ export const projects: Project[] = [
     description:
       "Modular signal processing pipeline and ML model utilizing MFCC feature extraction for 2-stage audio emotion classification.",
     tech: ["Python", "scikit-learn", "Signal Processing", "MFCC"],
+    image: "/images/audio-emotion.svg",
     github: "https://github.com/abhi-7-7/AI-Project",
     metrics: [
       "MFCC Feature Extraction",
@@ -166,6 +176,7 @@ export const projects: Project[] = [
     description:
       "Full-stack AI app utilizing OpenAI API to generate structured revision notes, featuring a JWT-secured backend and React-based study dashboard.",
     tech: ["React", "JavaScript", "Node.js", "Express", "OpenAI API", "JWT"],
+    image: "/images/exam-notes.svg",
     github: "https://github.com/abhi-7-7/Exam_Notes_Generator",
     metrics: [
       "OpenAI API Integration",

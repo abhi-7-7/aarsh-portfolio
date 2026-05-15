@@ -37,3 +37,10 @@ next-env.d.ts
 
 # resume
 public/Aarsh-Bhatnagar-Resume.pdf
+public/resume.pdf
+
+# images
+public/images/*.png
+public/images/*.jpg
+public/images/*.JPG
+public/images/*.jpeg
