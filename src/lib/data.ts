@@ -174,18 +174,6 @@ export const projects: Project[] = [
     ],
     featured: false,
   },
-  {
-    title: "Fluid UI",
-    description:
-      "Experimental UI framework built with TypeScript, focused on fluid transitions and agent-driven layout control for high-fidelity web experiences.",
-    tech: ["TypeScript", "React", "CSS", "Design Systems"],
-    github: "https://github.com/abhi-7-7/Fluid_UI",
-    metrics: [
-      "96.1% TypeScript",
-      "Agent-driven layouts",
-      "Experimental Framework",
-    ],
-    featured: false,
   },
 ];
 
