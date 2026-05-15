@@ -9,6 +9,8 @@ export const personal = {
   linkedin: "https://linkedin.com/in/aarsh-abhi7/",
   github: "https://github.com/abhi-7-7",
   resume: "/Aarsh-Bhatnagar-Resume.pdf",
+  resumeSizeLabel: undefined as string | undefined,
+  profileImage: undefined as string | undefined,
 };
 
 // ─── Projects ─────────────────────────────────────────────────────────────────
